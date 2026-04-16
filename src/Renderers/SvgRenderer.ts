@@ -41,7 +41,7 @@ export class SvgRenderer implements RendererInterface, ControlAwareInterface {
 			this.scale();
 
 			this.triggerChange();
-		}, { min: "100", max: "2000" });
+		}, { min: "100", max: "10000" });
 
 		return [
 			scale,
